@@ -9,7 +9,6 @@ A simple Golang REST api library.
   - [api.go](#apigo)
 - [Pro](#pro)
 - [Doc](#doc)
-- [Dependency](#dependency)
 - [Used By Project](#used-by-project)
 - [Repository](#repository)
 - [Contributors](#contributors)
@@ -61,10 +60,6 @@ func (t *Api) ProcessError() *Api
 
 - https://pkg.go.dev/github.com/J-Siu/go-restapi
 
-### Dependency
-
-- [go-helper/v2](https://github.com/J-Siu/go-helper)
-
 ### Used By Project
 
 - [go-gitapi](https://github.com/J-Siu/go-gitapi)
@@ -81,6 +76,9 @@ func (t *Api) ProcessError() *Api
 
 - v1.0.0
   - Feature complete
+- v1.0.1
+  - Update [go-helper/v2](https://github.com/J-Siu/go-helper)
+  - Update json tag
 
 ### License
 

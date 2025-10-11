@@ -1,6 +1,4 @@
 /*
-The MIT License (MIT)
-
 Copyright © 2025 John, Sing Dao, Siu <john.sd.siu@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -24,26 +22,6 @@ THE SOFTWARE.
 
 package restapi
 
-import (
-	"net/http"
-	"net/url"
+const (
+	Version = "v1.0.1"
 )
-
-// GitApi http output structure
-type Res struct {
-	Body   *[]byte      `json:"Body"`
-	Err    string       `json:"Err"`
-	Header *http.Header `json:"Header"` // Http response header
-	Output *string      `json:"Output"` // Api response body in string
-	Status string       `json:"Status"` // Http response status
-	Url    *url.URL     `json:"Url"`    // In.Uri + In.Endpoint
-}
-
-func (t *Res) New() *Res {
-	return t
-}
-
-// Check response status == 2xx
-func (t *Res) Ok() bool {
-	return t.Status != "" && t.Status[0] == '2' && t.Err == ""
-}

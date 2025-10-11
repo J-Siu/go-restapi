@@ -29,9 +29,9 @@ Github uses message and status.
 Gitea uses message and errors.
 */
 type Err struct {
-	Errors  string `json:"errors"`
-	Message string `json:"message"`
-	Status  string `json:"status"`
+	Errors  string `json:"Errors,omitempty"` // Used by Gitea
+	Message string `json:"Message"`
+	Status  string `json:"Status,omitempty"` // Used by Github
 }
 
 func (t *Err) StringP() *string {

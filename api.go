@@ -41,8 +41,8 @@ import (
 type Api struct {
 	*Property
 	log *ezlog.EzLog
-	Req *Req `json:"In,omitempty"`  // Api http input
-	Res *Res `json:"Out,omitempty"` // Api http output
+	Req *Req `json:"Req,omitempty"`
+	Res *Res `json:"Res,omitempty"`
 }
 
 // Setup a *Api
