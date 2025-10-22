@@ -72,14 +72,6 @@ func (t *Api) ProcessError() *Api
 
 - [John, Sing Dao, Siu](https://github.com/J-Siu)
 
-### Change Log
-
-- v1.0.0
-  - Feature complete
-- v1.0.1
-  - Update [go-helper/v2](https://github.com/J-Siu/go-helper)
-  - Update json tag
-
 ### License
 
 The MIT License (MIT)

@@ -1,0 +1,5 @@
+- v1.0.0
+  - Feature complete
+- v1.0.1
+  - Update [go-helper/v2](https://github.com/J-Siu/go-helper)
+  - Update json tag
