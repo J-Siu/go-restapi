@@ -3,3 +3,5 @@
 - v1.0.1
   - Update [go-helper/v2](https://github.com/J-Siu/go-helper)
   - Update json tag
+- v1.0.2
+  - update go-helper/v2

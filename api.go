@@ -142,7 +142,7 @@ func (t *Api) Do() *Api {
 		t.ProcessError()
 	}
 
-	t.log.Debug().Nn("api").Mn(&t).Nn("api.Out.Body (decoded)").M(t.Res.Body).Out()
+	t.log.Debug().N("api").Lm(&t).Ln("api.Out.Body (decoded)").M(t.Res.Body).Out()
 	return t
 }
 
@@ -241,7 +241,7 @@ func (t *Api) ProcessOutputError() *Api {
 
 // Print HTTP Body Err into string pointer
 func (t *Api) ProcessError() *Api {
-	t.log.Debug().Nn("api.Out.Body").M(t.Res.Body).Out()
+	t.log.Debug().N("api.Out.Body").Lm(t.Res.Body).Out()
 	// Unmarshal
 	var output string
 	if t.Res.Body != nil {

@@ -12,7 +12,6 @@ A simple Golang REST api library.
 - [Used By Project](#used-by-project)
 - [Repository](#repository)
 - [Contributors](#contributors)
-- [Change Log](#change-log)
 - [License](#license)
 
 <!-- /TOC -->
