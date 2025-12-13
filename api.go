@@ -148,32 +148,27 @@ func (t *Api) Do() *Api {
 
 // Api Get action wrapper
 func (t *Api) Get() *Api {
-	t.SetGet()
-	return t.Do()
+	return t.SetGet().Do()
 }
 
 // Api Del action wrapper
 func (t *Api) Del() *Api {
-	t.SetDel()
-	return t.Do()
+	return t.SetDel().Do()
 }
 
 // Api Patch action wrapper
 func (t *Api) Patch() *Api {
-	t.SetPatch()
-	return t.Do()
+	return t.SetPatch().Do()
 }
 
 // Api Post action wrapper
 func (t *Api) Post() *Api {
-	t.SetPost()
-	return t.Do()
+	return t.SetPost().Do()
 }
 
 // Api Put action wrapper
 func (t *Api) Put() *Api {
-	t.Method = http.MethodPut
-	return t.Do()
+	return t.SetPut().Do()
 }
 
 func (t *Api) SetGet() *Api {
