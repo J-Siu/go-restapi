@@ -5,3 +5,6 @@
   - Update json tag
 - v1.0.2
   - update go-helper/v2
+- v1.0.3
+  - update go-helper/v2
+  - use chain for action wrappers
