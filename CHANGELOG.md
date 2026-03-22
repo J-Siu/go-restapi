@@ -8,3 +8,5 @@
 - v1.0.3
   - update go-helper/v2
   - use chain for action wrappers
+- v1.0.4
+  - update go-helper/v2
