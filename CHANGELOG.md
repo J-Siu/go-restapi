@@ -10,3 +10,5 @@
   - use chain for action wrappers
 - v1.0.4
   - update go-helper/v2
+- v1.0.5
+  - update go-helper/v2
